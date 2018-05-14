@@ -1,0 +1,99 @@
+.estante{
+    padding: 10px 100px;
+    display: flex;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgb(218, 218, 218);
+
+}
+
+h5 {
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+}
+
+.itemx {
+    width: 400px;
+    max-height: 500px;
+    margin-top: 40px;
+    padding: 0px 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.itemx img {
+    max-height: 300px;
+}
+
+.itemx div {
+    padding: 4px 0px;
+    display: flex;
+}
+
+.itemx h5 {
+    font-size: 15pt;
+}
+
+.itemx h6 {
+    font-size: 20pt;
+
+}
+
+.itemx a {
+    font-family: 'Archivo Black', sans-serif;
+    margin-left: 40px;
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    background-color: orange;
+}
+
+.itemx a:hover{
+    color: rgb(102, 102, 102);
+}
+
+.lado {
+    flex-direction: column;
+    padding: 20px;
+}
+.cima {
+    display: flex;
+
+}
+
+.baixo {
+    display: flex;
+}
+
+.item {
+    background-color: white;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.item img {
+    max-height: 100px;
+    
+}
+
+.item a {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+    background-color: orange;
+}
+
+.item h5 {
+    font-size: 10pt;
+}
+
+.item h6 {
+    font-size: 15pt;
+}
